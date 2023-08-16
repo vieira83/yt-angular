@@ -7,6 +7,7 @@ import { HeaderComponent } from './layout/header/header.component'
 import { FooterComponent } from './layout/footer/footer.component'
 import { AppRoutingModule } from './app-routing.module'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+// import { MaterialModule } from './modules/material/material.module'
 
 @NgModule({
   declarations: [
