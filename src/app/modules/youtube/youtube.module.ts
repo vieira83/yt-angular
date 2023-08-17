@@ -5,6 +5,6 @@ import { MaterialModule } from '../material/material.module'
 
 @NgModule({
   declarations: [],
-  imports: [CommonModule, YoutubeRoutingModule, MaterialModule],
+  imports: [CommonModule, YoutubeRoutingModule],
 })
 export class YoutubeModule {}

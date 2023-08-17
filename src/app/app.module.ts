@@ -7,6 +7,8 @@ import { HeaderComponent } from './layout/header/header.component'
 import { FooterComponent } from './layout/footer/footer.component'
 import { AppRoutingModule } from './app-routing.module'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { SideNavComponent } from './layout/header/side-nav/side-nav.component'
+import { MaterialModule } from './modules/material/material.module'
 // import { MaterialModule } from './modules/material/material.module'
 
 @NgModule({
@@ -15,8 +17,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
     AppContentLayoutComponent,
     HeaderComponent,
     FooterComponent,
+    SideNavComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

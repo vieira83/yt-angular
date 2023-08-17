@@ -1,0 +1,15 @@
+$myFont: Helvetica, sans-serif;
+$myFontSize: 18px;
+$myWidth: 680px;
+
+
+// _breakpoints.scss
+$breakpoints: (
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px,
+  "sl": 1400px
+);
+
+

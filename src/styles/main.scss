@@ -1,0 +1,15 @@
+//main.scss
+@use '@angular/material' as mat;
+
+/* base */
+@import "base/reset";
+//@import "base/_variables";
+@import "base/colors";
+@import "base/typography";
+@import "base/functions";
+@import "base/material";
+
+/* themes */
+@import "themes/dark-theme";
+@import "themes/light-theme";
+
